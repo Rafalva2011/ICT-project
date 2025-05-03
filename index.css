@@ -1,0 +1,43 @@
+body {
+  margin: 20px;
+  background-color: #1d3349;
+  color: rgb(0, 0, 0);
+}
+
+/* Navegación */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+}
+
+/* Contenedor principal */
+main {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Contenido dinámico */
+#contenido {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px dashed #005f99;
+  background-color: #e6f4ff;
+  border-radius: 10px;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+}
